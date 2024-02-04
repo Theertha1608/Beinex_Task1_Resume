@@ -28,6 +28,7 @@ body
 .container .top
 {
   position: relative;
+  font-size: 2em;
   display: grid;
   grid-template-columns: 1fr 2fr;
   padding: 40px;
@@ -170,3 +171,52 @@ h6{
     height: 100%;
     background: #2983d8;
 }
+p {
+    line-height: 1.5; 
+    text-align: justify;
+    font-style: 300;
+}
+.rightBox ul li{
+    margin: 25px 0;
+    line-height: 1em;
+    color: #110e0e;
+    cursor: pointer;
+    display: flex;
+}
+.rightSide .about ul li {
+    margin: 25px 0;
+    line-height: 1em;
+    color: #110e0e;
+    cursor: pointer;
+    display: flex;
+}
+.rightSide .about .box ul {
+    list-style: none; 
+    padding-left: 20px; 
+}
+
+.rightSide .about .box ul li {
+    margin: 10px 0; 
+    position: relative;
+}
+
+.rightSide .about .box ul li::before {
+    content: '\2022';
+    color: #070707; 
+    font-size: 1.5em; 
+    margin-right: 5px; 
+    position: absolute;
+    left: -15px; 
+}
+.rightSide .about p {
+    text-indent: 20px;
+}
+.rightSide .about .box h4 {
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  
+  
